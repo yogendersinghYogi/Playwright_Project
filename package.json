@@ -1,0 +1,25 @@
+{
+  "name": "playwright_training",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "Smoke": "playwright test --grep @smoke",
+    "Sanity": "playwright test --grep @Sanity",
+    "Salesfoce": "playwright test --grep @SF",
+    "SmartBear": "playwright test --grep @SB",
+    "Regression": "playwright test --grep @Regression",
+    "SmokeTest_Config": "playwright test --config=smoke.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.21"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "xlsx": "^0.18.5"
+  }
+}

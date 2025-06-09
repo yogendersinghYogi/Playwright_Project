@@ -1,0 +1,21 @@
+[
+    {
+      "test_case": "TC1",
+      "Product": "Tester", 
+      "Quantity": "test",
+      "Price per unit:": "test",
+      "Discount:": "test",
+      "Total:": "test",
+      "Calculate": "test",
+      "Customer name:": "test",
+      "Street": "test",
+      "City": "test",
+      "State": "test",
+      "Zip": "test",
+      "Card Nr:": "test",
+      "Expire date (mm/yy)": "test"
+
+
+    }
+
+]
